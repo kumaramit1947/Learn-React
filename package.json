@@ -21,5 +21,12 @@
   "homepage": "https://github.com/kumaramit1947/Learn-React#readme",
   "devDependencies": {
     "parcel": "^2.9.2"
-  }
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
