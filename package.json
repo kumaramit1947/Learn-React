@@ -1,0 +1,25 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "Learning React from Akshay Saini",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumaramit1947/Learn-React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Kumar Amit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumaramit1947/Learn-React/issues"
+  },
+  "homepage": "https://github.com/kumaramit1947/Learn-React#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2"
+  }
+}
