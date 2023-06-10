@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-const heading = React.createElement('h1', { className: 'react-head' }, 'Jai Shree Ram');
-// Nested sibling elements
-const wrapper = React.createElement('div', { className: 'parent' },
-    [heading, React.createElement('p', { className: 'desc' }, 'Lord of the World')]
-);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(wrapper);
+const App=()=>{
+    return(
+        <>
+        
+       <div>Jai Mata Di</div>
+    
+    </>
+    );
+}
+// Multiple root elements and render are possible
+const root1=ReactDOM.createRoot(document.getElementById("root1"));
+const root2=ReactDOM.createRoot(document.getElementById("root2"));
+root1.render(<App />)
+root2.render(<App />)
+root2.render(<h1>Jai Bhavani</h1>)
