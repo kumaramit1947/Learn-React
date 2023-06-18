@@ -1,3 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body {
-    background-color: gray;
+    margin: 0;
+    padding: 0 50px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid green;
+}
+.logo {
+    width: fit-content;
+    font-family: cursive;
+    padding: 0 5px;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+.nav-menu {
+    flex: 1;
+    min-width: 70%; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0 50px;
+    /* border: 1px solid blue; */
+}
+.nav-item{
+    /* border: 1px solid black; */
+    cursor: pointer;
+    padding: 5px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    cursor: auto;
+}
+.search-container > * {
+    border: none;
+    outline: none;
+    background: transparent;
+    
+}
+.btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+    border: 1px solid blue;
+}
+.res-card {
+    height: 250px;
+    width: 185px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    
+
+}
+
+.image-container {
+    width: 100%;
+    height: 50%;
+
+}
+.res-image {
+    height: 100%;
+    width: 100%;
+}
+.info-container {
+    height: 50%;
+    width: 100%;
+    padding: 15px 10px;
+    
+}
+.info-container > * {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+.res-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+.analytics {
+    margin-top: 5px;
 }
